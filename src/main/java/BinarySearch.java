@@ -8,9 +8,6 @@ public class BinarySearch {
         int [] el = new int[100000];
         int number = 3;
 
-//        for (int i = 0; i < 10; i++){
-//            el[i] = i;
-//        }
         IntStream.range(0,100000).forEach(index -> el[index] = new Random().nextInt(100000));
 
         long start = System.currentTimeMillis();
